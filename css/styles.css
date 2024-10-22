@@ -31,6 +31,7 @@ address {
 img {
     display: block;
 }
+
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -106,10 +107,16 @@ span.word {
     padding: 24px 0;
 }
 
-
 .fon {
     background-color: #2E2F42;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
+    padding: 188px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .title {
     font-weight: 700;
@@ -185,6 +192,19 @@ span.word {
 .title-one-list-item {
     width: calc((100%-72px)/4);
 }
+.title-one-list-image {
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+*** O U R     T E A M ***
 
 .team {
     background-color: #F4F4FD;
@@ -202,8 +222,35 @@ span.word {
 }
 .title-two-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px;
 }
+
+.title-two-list-icons {
+    width: 40px;
+    height: 40px;
+}
+.title-two-list-icon-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}.
+.title-two-list-icon-link:hover,
+.title-two-list-icon-link:focus{
+    background-color: #404bbf;
+}
+.title-two-list-icon-icons {
+    fill: #f4f4fd;
+}
+
 .image {
     background: #FFFFFF;
     width: calc((100%-72px)/4);
@@ -228,10 +275,13 @@ span.word {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 .title-two-list-conteiner {
     padding: 32px 0;
 }
+
+*** O U R   P o r t f o l i o ***
 
 
 .portfolio {
@@ -278,7 +328,6 @@ span.word {
 }
 
 
-
 .down {
     background: #2e2f42;
     padding: 100px 0;
@@ -303,4 +352,29 @@ span.word-down {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     max-width: 264px;
+}
+.down-conteiner {
+    display: flex;
+    align-items: baseline;
+}
+.down-word-conteiner {
+    margin-right: 120px;
+}
+.down-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+.down-text-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.title-two-list-icon-link-down:hover,
+.title-two-list-icon-link-down:focus {
+    background-color: #31d0aa;
 }
