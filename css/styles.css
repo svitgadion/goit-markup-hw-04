@@ -282,6 +282,7 @@ span.word {
 }
 .title-two-list-icon-icons {
     fill: #f4f4fd;
+    background-color: #4d5ae5;
 }
 
 .image {
@@ -491,11 +492,7 @@ span.word-down {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
-.title-two-list-icon-icons {
-    width: 100%;
-    height: 100%;
-    background-color: #4d5ae5;
-}
+
 .title-two-list-icon-link-down:hover,
 .title-two-list-icon-link-down:focus {
     background-color: #31d0aa;
